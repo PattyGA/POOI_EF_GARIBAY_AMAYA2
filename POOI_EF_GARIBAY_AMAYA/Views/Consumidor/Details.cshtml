@@ -1,0 +1,57 @@
+﻿@model POOI_EF_GARIBAY_AMAYA.Models.Consumidor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Consumidor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dnicont)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dnicont)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nomcont)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nomcont)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.apecont)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.apecont)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.emailcont)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emailcont)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.idpais)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idpais)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
